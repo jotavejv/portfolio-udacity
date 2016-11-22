@@ -8,6 +8,9 @@
 .text-uppercase {
     text-transform: uppercase;
 }
+.container{
+    max-width: 950px; /*override bootstrap*/
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -35,6 +38,23 @@ header {
 .header-divider {
     border-top: solid 5px #7d97ad;
 }
-h2 {
+.portfolio-list-title {
     color: #7d97ad;
+    font-size: 3em;
+    padding-left: 12px;
+}
+.portfolio-projects-list {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.portfolio-projects-list img{
+    display: inline-block;
+}
+.portfolio-projects-list h3{
+    font-size: 3em;
+    margin: 0;
+}
+.portfolio-projects-list h6{
+    font-size: 1.5em;
+    margin: 0;
 }
