@@ -11,6 +11,10 @@
 .container{
     max-width: 950px; /*override bootstrap*/
 }
+html,
+body {
+    height: 100%;
+}
 
 body {
     font-family: 'Lato', sans-serif;
@@ -57,4 +61,28 @@ header {
 .portfolio-projects-list h6{
     font-size: 1.5em;
     margin: 0;
+}
+.stick-footer{
+    margin-bottom: 50px;
+    min-height: 100%;
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #7d97ad;
+    color: #fff;
+    font-size: 1.4em;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+@media screen and (max-width: 768px) {
+    .portfolio-list-title{
+        text-align: center;
+    }
+}@media screen and (max-width: 500px) {
+    .portfolio-header-info h1{
+        font-size: 3.5em;
+    }
 }

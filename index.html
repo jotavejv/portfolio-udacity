@@ -10,40 +10,45 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main class="container">
-        <header class="text-uppercase">
+    <main>
+        <div class="container stick-footer">
+            <header class="text-uppercase">
             <img src="img/logo.svg" alt="Logo" class="logo" class="img-responsive" width="85" height="85">
             <div class="portfolio-header-info">
                 <h1>João Victor</h1>
                 <h4>Front-end Ninja</h4>
             </div>
-        </header>
-        <hr class="header-divider">
-        <section>
-            <!--  -->
-        </section>
-        <h2 class="portfolio-list-title">Featured Work</h2>
-        <div class="row">
-            <section class="portfolio-projects-list col-sm-4">
-                <img src="img/appify.png" alt="Appify" class="img-responsive">
-                <h3 class="text-uppercase">Appify</h3>
-                <h6>https://github.com/udacity/Appify</h6>
+            </header>
+            <hr class="header-divider">
+            <section>
+                <picture>
+                    <source media="(max-width: 500px)" srcset="img/header.png 1x,
+                    img/header-2x.png 2x">
+                    <source media="(max-width: 768px)"  srcset="img/header.png 1x,
+                    img/header-2x.png 2x">
+                    <img src="img/header.png" alt="" class="img-responsive">
+                </picture>
             </section>
-            <section class="portfolio-projects-list col-sm-4">
-                <img src="img/sunflower.png" alt="Sunflower" class="img-responsive">
-                <h3 class="text-uppercase">Sunflower</h3>
-                <h6>https://github.com/udacity/Sunflower</h6>
-            </section>
-            <section class="portfolio-projects-list col-sm-4">
-                <img src="img/bokeh.png" alt="Bokeh" class="img-responsive">
-                <h3 class="text-uppercase">Bokeh</h3>
-                <h6>https://github.com/udacity/Bokeh</h6>
-            </section>
+            <h2 class="portfolio-list-title">Featured Work</h2>
+            <div class="row">
+                <section class="portfolio-projects-list col-sm-4">
+                    <img src="img/appify.png" alt="Appify" class="img-responsive" srcset="img/sunflower.png 1x, img/sunflower-2x.png 2x">
+                    <h3 class="text-uppercase">Appify</h3>
+                    <h6>https://github.com/udacity/Appify</h6>
+                </section>
+                <section class="portfolio-projects-list col-sm-4">
+                    <img src="img/sunflower.png" alt="Sunflower" class="img-responsive" srcset="img/sunflower.png 1x, img/sunflower-2x.png 2x">
+                    <h3 class="text-uppercase">Sunflower</h3>
+                    <h6>https://github.com/udacity/Sunflower</h6>
+                </section>
+                <section class="portfolio-projects-list col-sm-4">
+                    <img src="img/bokeh.png" alt="Bokeh" class="img-responsive" srcset="img/sunflower.png 1x, img/sunflower-2x.png 2x">
+                    <h3 class="text-uppercase">Bokeh</h3>
+                    <h6>https://github.com/udacity/Bokeh</h6>
+                </section>
+            </div>
         </div>
-
-        <footer>
-
-        </footer>
+        <footer>&copy; Copyright 2016 Portfolio Udacity</footer>
     </main>
 </body>
 </html>
