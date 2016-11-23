@@ -8,9 +8,11 @@
 .text-uppercase {
     text-transform: uppercase;
 }
+
 .container{
     max-width: 950px; /*override bootstrap*/
 }
+
 html,
 body {
     height: 100%;
@@ -21,51 +23,63 @@ body {
     color: #2d3c49;
     font-size: 10px; /*reset default font-size*/
 }
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0 10px;
 }
+
 .portfolio-header-info {
     text-align: right;
 }
+
 .portfolio-header-info h1{
     font-weight: 100;
     font-size: 5em;
     margin: 0;
 }
+
 .portfolio-header-info h4{
     font-size: 2em;
     margin: 0;
 }
+
 .header-divider {
     border-top: solid 5px #7d97ad;
 }
+
 .portfolio-list-title {
     color: #7d97ad;
     font-size: 3em;
     padding-left: 12px;
 }
+
 .portfolio-projects-list {
     text-align: center;
     margin-bottom: 15px;
 }
+
 .portfolio-projects-list img{
     display: inline-block;
 }
+
 .portfolio-projects-list h3{
     font-size: 3em;
     margin: 0;
 }
+
 .portfolio-projects-list h6{
     font-size: 1.5em;
     margin: 0;
 }
+
 .stick-footer{
     margin-bottom: 50px;
     min-height: 100%;
 }
+
 footer {
     text-align: center;
     padding: 15px 0;
@@ -77,11 +91,14 @@ footer {
     right: 0;
     bottom: 0;
 }
+
 @media screen and (max-width: 768px) {
     .portfolio-list-title{
         text-align: center;
     }
-}@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 500px) {
     .portfolio-header-info h1{
         font-size: 3.5em;
     }
